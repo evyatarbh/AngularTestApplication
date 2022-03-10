@@ -1,0 +1,24 @@
+:host {
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+
+  .items-list-title {
+    font-weight: bold;
+  }
+
+  .items-list-wrapper {
+    border: 1px solid black;
+    min-height: 10rem;
+    width: fit-content;
+    min-width: 14.5rem;
+    margin: 0.5rem 0;
+  }
+
+  input {
+    margin-right: 0.25rem;
+  }
+}
